@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "app/*": ["./app/*"],
+      "components": ["./app/components/*"],
+      "assets/*": ["./app/assets/*"]
+    },
+    "experimentalDecorators": true
+
+  }
+}

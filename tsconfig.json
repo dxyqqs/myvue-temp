@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "app/*": ["./app/*"],
+      "components": ["./app/components/*"],
+      "assets/*": ["./app/assets/*"]
+    },
+    "moduleResolution": "node",
+    "module": "es2015",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "target": "es2015",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016"
+    ]
+  },
+  "include": [
+    "app/**/*.ts"
+  ]
+}
