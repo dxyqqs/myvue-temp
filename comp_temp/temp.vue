@@ -3,7 +3,7 @@
 
 </template>
 
-{{#if  component.hasTS}}
+{{#if  component.hasTypescript}}
 <script lang="ts">
   // write script here
   import Vue from "vue";
@@ -19,6 +19,7 @@
 {{else}}
 <script>
   export default {
+    name:{{{comonent.name}}},
     data(){
       return {
          
