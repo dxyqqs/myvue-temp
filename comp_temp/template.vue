@@ -28,7 +28,7 @@
   }
 </script>
 {{/if}}
-{{#if  package.hasScss}}
+{{#if  component.hasScss}}
 <style lang="scss">
   // write style here
 
