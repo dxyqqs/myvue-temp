@@ -8,7 +8,7 @@
   // write script here
   import Vue from "vue";
   export default Vue.extend({
-    name:{{{comonent.name}}},
+    name:{{{component.name}}},
     data(){
       return {
         
@@ -19,7 +19,7 @@
 {{else}}
 <script>
   export default {
-    name:{{{comonent.name}}},
+    name:{{{component.name}}},
     data(){
       return {
          
