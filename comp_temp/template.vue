@@ -8,7 +8,7 @@
   // write script here
   import Vue from "vue";
   export default Vue.extend({
-    name:{{{component.name}}},
+    name:"{{{component.name}}}",
     data(){
       return {
         
