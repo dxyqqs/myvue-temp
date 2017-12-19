@@ -19,7 +19,7 @@
 {{else}}
 <script>
   export default {
-    name:{{{component.name}}},
+    name:"{{{component.name}}}",
     data(){
       return {
          
